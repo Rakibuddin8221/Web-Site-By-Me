@@ -29,7 +29,7 @@ nav{
 }
 
 /* shared style */
-.secondery.bg{
+.secondery-bg{
     background-color: bisque;
 
 
@@ -180,3 +180,65 @@ main{
 
 
 }
+/* resume section style */
+.resume-column {
+   display: flex;
+   gap: 25px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0%;
+
+
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+    display: block;
+
+}
+.resume-download-cv{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+
+}
+.resume hr{
+    margin: 30px;
+
+
+}
+.resume-column-title{
+   display: contents;
+
+
+}
+
+
+
+/* foo[ter style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+
+
+}
+.footer-column{
+    width: 50%;
+
+
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: azure;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+
+
+
+
+}
+
